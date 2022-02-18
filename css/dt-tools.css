@@ -47,7 +47,7 @@ main{
     /* background-image: linear-gradient(#333333,#dd1818, #6a9113,#141517); */
     /* background-image: linear-gradient(135deg, #0f0c29,#8983cf,#24243e); */
     background-image: var(--text-border-gradient);
-    font-family: 'georgia';
+    /* font-family: 'georgia'; */
     background-clip: text;
     -webkit-background-clip: text;
 }
@@ -125,52 +125,7 @@ main{
     -webkit-background-clip: text;
     background-clip: text;
 }
-/* .tool-cubes{
-    width: 150px;
-    height: 150Px;
-    background-color: rgb(255, 255, 255);
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center;
-    border: 3px solid rgb(152, 131, 247);
-    box-shadow: 5px 5px 18px inset rgb(104, 104, 109),-3px -3px 18px inset rgb(122, 122, 240) ;
-    border-image: linear-gradient(135deg,#ff5500, #fff, rgb(162, 4, 253)) 10 stretch;
-    border-radius: 0px 25px;
-}
-.about-tool{
-    width: 90%;
-    height: 20px;
-}
-.about-tool img{
-    float: right;
-    width: 20px;
-}
-.tool-link{
-    width: 90px;
-    height: 90px;
-    padding: 5px;
-    border-radius: 100%;
-    border: 5px solid transparent;
-}
-.tool-link:hover{
-    border: none;
-}
-.tool-link img{
-    width: 100%;
-    height: 100%;
 
-}
-.tool-title{
-    width: 90%;
-    height: 20px;
-}
-.tool-title p{
-    text-align: center;
-    font-family: -apple-system,'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold;
-} */
 
 @media screen and (max-width: 900px){
     .tool-section{
