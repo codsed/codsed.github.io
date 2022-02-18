@@ -1,0 +1,167 @@
+.html-css-container{
+    /* width: 100%; */
+    padding: 10px 10px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* background-color: rgb(37, 201, 51); */  
+    transition: all 400ms linear;
+}
+
+.html-css-container a{
+    text-align: center;
+    max-width: 300px;
+    color: white;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    display: block;
+    padding: 16px 20px;
+    box-shadow: var(--main-box-shadow);
+}
+.html-css-container a:hover{
+    background-color: aqua;
+    color: black;
+}
+.seperator{
+    width: 3px;
+    height: 400px;
+    border-radius: 100%;
+    background-image: var(--ver-partition-image);
+    background-color: transparent;
+    box-shadow: 10px 0px 10px,-10px 0px 10px;
+    animation-name: glow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes glow{
+    0%{
+        box-shadow: 1px 0px 10px aqua,-2px 0px 10px aqua;
+    }
+    30%{
+        box-shadow: 1px 0px 5px #fa6d0f,-2px 0px 5px #fa6d0f;
+    }
+    60%{
+        box-shadow: 1px 0px 10px #fff,-2px 0px 10px #fff;
+    }
+    100%{
+        box-shadow: 1px 0px 5px rgba(236, 29, 255, 0.945),-2px 0px 5px rgba(236, 29, 255, 0.945);
+    }
+}
+.html-link-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: rgb(212, 78, 78); */
+    padding: 5px 20px 0 10px;
+    width: calc(40% - 12px);
+}
+.html-css-container h2{
+    width: 100%;
+    color: transparent;
+    background-image: var(--small-text-border-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-align: center;
+    padding: 15px 20px;
+    letter-spacing: 1.5px;
+    text-shadow: 1px 1px 1px rgba(236, 29, 255, 0.945),-1px -1px 1px white;
+}
+.css-link-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: brown; */
+    padding: 5px 10px 0 10px;
+    width: calc(60% - 12px);
+}
+.css-link-left-section,.css-link-right-section{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cheatsheet-container{
+    padding-bottom: 10px;
+    margin: 10px 0;
+    width: 100%; 
+}
+.cheatsheet-container h2{
+    width: 100%;
+    padding: 5px 0;
+    margin: 0 auto;
+}
+hr{
+    margin: auto;
+    width: 50%;
+    outline: none;
+    border: none;
+    background-image: var(--hor-partition-image);
+    height: 2px;
+    margin: 1.1em auto;
+}
+
+.cheatsheet{
+    /* background-color: brown; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.cheatsheet a{
+    padding: 5px 0 0 0;
+    margin: 0;
+}
+
+.cheatsheet img{
+    height: 70px;
+}
+.cheatsheet-box{
+    margin: 0 auto;
+    width: 45%;
+    margin-top: 5px;
+}
+
+#break{
+    width: 80%;
+}
+.css-by-game{
+    flex-direction: column;
+}
+.css-practice-container{
+    padding: 0em 1.2em;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content:flex-start;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.css-practice-container a{
+    width: 100%;
+    padding: 5px;
+    color: transparent;
+    background-image: var(--hor-partition-image);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: bold;
+    border: 4px solid transparent;
+    transition: all 400ms linear;
+}
+.css-practice-container img{
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+.css-practice-container a:hover{
+    border: 4px solid aqua;
+    color: transparent;
+    background-image: var(--hor-partition-image);
+    -webkit-background-clip: text;
+    background-clip: text;
+}

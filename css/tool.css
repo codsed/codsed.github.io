@@ -1,0 +1,39 @@
+.tool-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1.5em;
+}
+
+.left-tool-container{
+    /* padding: 10px; */
+    width: calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* background-color: aqua; */
+}
+.left-tool-container a{
+    width: 90px;
+    height: 90px;
+    border: 4px solid transparent;
+    transition: all 400ms linear;
+}
+.left-tool-container img{
+    background-color: rgb(255, 255, 255);
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
+
+.left-tool-container a:hover{
+    border: 4px solid aqua;
+    transform: scale(1.1);
+}
+
+.youtuber-content{
+    justify-content: space-around;
+}

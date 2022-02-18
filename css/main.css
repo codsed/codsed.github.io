@@ -1,0 +1,14 @@
+
+
+@import url('/Feb-2022/09-02-2022/georgia/Georgia.ttf');
+/* body, var, reset */
+@import url('devtool.css');
+
+/* tools css */
+@import url('dt-tools.css');
+
+/* Html and css page */
+@import url('html&css.css');
+
+/* tool Page */
+@import url('tool.css');
