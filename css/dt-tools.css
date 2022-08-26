@@ -100,10 +100,12 @@ main{
     height: 100px;
     padding: 5px;
     border-radius: 100%;
-    border: 5px solid transparent;
+    transition: all 400ms linear;
+    /* border: 5px solid transparent; */
 }
 .tool-link:hover{
-    border: 3px solid transparent;
+    transform: scale(1.1);
+    /* border: 3px solid transparent; */
 }
 .tool-link img{
     width: 100%;
